@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Tiro+Devanagari+Hindi&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imp-div{
+    background-image: url("/assets/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-img {
+    text-align: center;
+}
+
+.form-main {
+    width: 416px;
+    height: 603px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1px 8px;
+}
+
+.title-main {
+    display: block;
+    font-size: 20px;
+    color: #77120c;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.input-field {
+    border: 1px solid #d3d3d3;
+    color: #77120c;
+    height: 42px;
+    width: 300px;
+    padding: 5px 0px 5px 15px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.input-field-date {
+    border: 1px solid #d3d3d3;
+    color: #77120c;
+    height: 42px;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.submit-main {
+    text-align: center;
+}
+
+.submit-main button{
+    background-color: #77120c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+}
+
+.bottom-text {
+    padding: 20px 70px;
+    text-align: center;
+    margin-top: 1%;
+
+
+}
+
+.bottom-text p {
+    font-family: SourceSansPro-Regular;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    margin: 0px;
+}
+
+.r-main{
+    display: flex;
+    justify-content: center;
+}
